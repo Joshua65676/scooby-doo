@@ -12,7 +12,7 @@ const About: React.FC = () => {
             About
           </h3>
 
-          <div className="flex xl:flex-row md:flex-col md:items-center xl:gap-40 md:gap- py-[94.5px] w-full relative">
+          <div className="flex xl:flex-row md:flex-col mx:flex-col mx:text-left md:items-center xl:gap-40 md:gap- mx:gap-10 py-[94.5px] w-full relative">
             <div className="flex flex-col gap-10">
               <p className="leading-[26.5px] -tracking-[2.5%] max-w-[805px] text-[14px] text-tertiary font-medium font-cinema">
                 Scooby-Doo, the world’s most lovable Great Dane, is known for
@@ -26,7 +26,7 @@ const About: React.FC = () => {
                 to light—one snack at a time.
               </p>
 
-              <div className="flex flex-row gap-5">
+              <div className="flex flex-row xl:gap-5 md:gap-5 mx:gap-20">
                 <Button className="rounded-xl text-primary bg-tertiary font-bold font-cinema text-[14px] w-[9rem]">
                   Dexscreener
                 </Button>
@@ -36,7 +36,7 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            <div className="relative xl:-top-10 md:top-20">
+            <div className="relative xl:-top-10 md:top-14 mx:top-20 mx:pl-16 xl:pl-0 md:pl-0">
               <Image src={AboutImage} alt=""  className="w-[300px] h-[300px]" />
             </div>
           </div>

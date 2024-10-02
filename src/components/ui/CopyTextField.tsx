@@ -22,7 +22,7 @@ const CopyTextField = () => {
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder="Enter Address Here...."
-        className=" p-2 pl-5 h-[60px] w-[650px] rounded-2xl bg-primary text-tertiary uppercase font-cinema text-[14px]"
+        className=" p-2 pl-5 h-[60px] xl:w-[650px] md:w-[650px] mx:w-[400px] rounded-2xl bg-primary text-tertiary uppercase font-cinema text-[14px]"
       />
       
         <Button

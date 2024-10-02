@@ -19,7 +19,7 @@ const NavBar: React.FC = () => {
       <main className="container max-w-7xl mx-auto w-full">
         <div className="flex w-full justify-between items-center py-4">
 
-          <div className="flex items-center gap-[36px]">
+          <div className="xl:flex md:flex mx:hidden xm:hidden items-center gap-[36px]">
             {navLinks.map(({ id, title, link }) => (
               <ul key={id}>
                 <Link href={link} onClick={() => setActive(title)}>
@@ -36,7 +36,7 @@ const NavBar: React.FC = () => {
             <Image src={Logo} alt="" className="w-[30px] h-[60px]" />
           </Link>
 
-          <div className="flex items-center gap-[24px] py-5">
+          <div className="xl:flex md:flex mx:hidden xm:hidden items-center gap-[24px] py-5">
             {socialLinks.map(({ id, title, link }) => (
               <ul key={id} className="">
                 <Link href={link}>
