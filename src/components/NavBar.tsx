@@ -23,7 +23,7 @@ const NavBar: React.FC = () => {
             {navLinks.map(({ id, title, link }) => (
               <ul key={id}>
                 <Link href={link} onClick={() => setActive(title)}>
-                  <span className={`text-[14px] leading-[19.1px] font-semibold text-primary hover:text-white hover:underline ${
+                  <span className={`text-[14px] leading-[19.1px] font-semibold font-larken text-primary hover:text-white hover:underline ${
                     active === link ? "border-b-2 border-primary h-10 gap-2"  : " " }`}>
                     {title}
                   </span>
@@ -41,7 +41,7 @@ const NavBar: React.FC = () => {
               <ul key={id} className="">
                 <Link href={link}>
                   <Button className=" bg-primary rounded-xl h-[40px] w-[100px] ">
-                   <span className="text-tertiary text-[14px] font-semibold leading-[19.1px] uppercase">{title}</span>
+                   <span className="text-tertiary text-[13px] font-semibold font-cinema leading-[19.1px] uppercase">{title}</span>
                   </Button>
                 </Link>
               </ul>

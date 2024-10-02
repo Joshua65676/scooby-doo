@@ -15,6 +15,10 @@ const config: Config = {
       },
     },
     extend: {
+      fontFamily: {
+        larken: ['LarkenDemo', 'serif'],
+        cinema: ['CinemaCartoon', 'sans-serif'],
+      },
       colors: {
         primary: "#725029",
         tertiary: "#F8C165",

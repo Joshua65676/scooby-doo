@@ -6,7 +6,24 @@ body {
     background: #F8C165;
 }
 
-
+@font-face {
+  font-family: 'LarkenDemo';
+  src: url('/fonts/LarkenDemo-Light.otf') format('opentype'),
+       url('/fonts/LarkenDemo-Regular.otf') format('opentype'),
+       url('/fonts/LarkenDemo-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'CinemaCartoon';
+    src: url('/fonts/CinemaCartoon-MVMMB.woff2') format('woff2'),
+         url('/fonts/CinemaCartoon-MVMMB.woff') format('woff'),
+         url('/fonts/CinemaCartoon-MVMMB.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 
 
 

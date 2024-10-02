@@ -22,14 +22,14 @@ const CopyTextField = () => {
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder="Enter Address Here...."
-        className=" p-2 pl-5 h-[60px] w-[650px] rounded-2xl bg-primary text-tertiary uppercase"
+        className=" p-2 pl-5 h-[60px] w-[650px] rounded-2xl bg-primary text-tertiary uppercase font-cinema text-[14px]"
       />
       
         <Button
           onClick={handleCopy}
           className="w-[90px] h-[40px] bg-tertiary rounded-xl absolute -ml-28 mt-2"
         >
-          <span className="text-primary text-[20px] font-bold uppercase">Copy</span>
+          <span className="text-primary text-[17px] font-bold font-cinema uppercase">Copy</span>
         </Button>
       
     </div>

@@ -18,12 +18,12 @@ const Hero = () => {
 
           <div className="flex flex-col">
             <div className="">
-              <h1 className="text-primary font-extrabold uppercase text-[90px]">
+              <h1 className="text-primary font-extrabold font-cinema uppercase text-[80px]">
                 Scooby-doo
               </h1>
             </div>
             <div className="">
-              <p className="text-primary text-[18px] font-medium leading-[26px]">
+              <p className="text-primary text-[20px] font-medium font-larken leading-[26px]">
                 Scooby-Doo is a goofy, snack-loving dog who helps solve spooky
                 mysteries with his friends.
               </p>
