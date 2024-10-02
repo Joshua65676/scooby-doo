@@ -8,12 +8,12 @@ const Footer: React.FC = () => {
       <main className="container max-w-6xl mx-auto w-full h-[350px]">
         <div className="flex flex-col gap-5 text-center items-center">
           <div className="absolute flex left-0">
-            <Image src={BgImage1} alt="" />
+            <Image src={BgImage1} alt="" className="md:w-[380px] xl:w-[400px]" />
           </div>
 
           <div className="flex flex-col gap-[13rem]">
             <div className="flex flex-col gap-2">
-              <h2 className="text-tertiary font-extrabold font-cinema uppercase text-[72px]">
+              <h2 className="text-tertiary font-extrabold font-cinema uppercase xl:text-[72px] md:text-[55px]">
                 Scooby-doo
               </h2>
               <p className="text-tertiary text-[18px] font-medium font-larken leading-[26px]">
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                 the most unlikely hero can save the day.
               </p>
             </div>
-            <div className="">
+            <div className="md:pt-10 xl:pt-0">
                 <span className="text-tertiary text-[18px] font-bold font-cinema leading-[26px]">
                    &copy; 2024 by scooby-doo . All Rights reserved!
                 </span>
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="absolute flex right-0">
-            <Image src={BgImage2} alt="" />
+            <Image src={BgImage2} alt="" className="md:w-[380px] xl:w-[400px]" />
           </div>
         </div>
       </main>

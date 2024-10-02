@@ -6,13 +6,13 @@ import Image from "next/image";
 const About: React.FC = () => {
   return (
     <section className="py-[85px] mt-16 bg-primary">
-      <div className="container max-w-6xl mx-auto w-full h-[450px]">
+      <div className="container max-w-6xl mx-auto w-full xl:h-[450px] md:h-[800px]">
         <div className="flex flex-col items-center gap-[20px]">
           <h3 className="text-[59px] leading-[39.2px] text-center text-tertiary font-bold font-cinema uppercase">
             About
           </h3>
 
-          <div className="flex flex-row gap-40 py-[94.5px] w-full relative">
+          <div className="flex xl:flex-row md:flex-col md:items-center xl:gap-40 md:gap- py-[94.5px] w-full relative">
             <div className="flex flex-col gap-10">
               <p className="leading-[26.5px] -tracking-[2.5%] max-w-[805px] text-[14px] text-tertiary font-medium font-cinema">
                 Scooby-Doo, the world’s most lovable Great Dane, is known for
@@ -36,8 +36,8 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            <div className="relative -top-10">
-              <Image src={AboutImage} alt="" className="w-[300px] h-[300px]" />
+            <div className="relative xl:-top-10 md:top-20">
+              <Image src={AboutImage} alt=""  className="w-[300px] h-[300px]" />
             </div>
           </div>
         </div>

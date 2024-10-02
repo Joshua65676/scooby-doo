@@ -26,6 +26,14 @@ const config: Config = {
         tokeno:  "#FCF3DD",
 
       },
+      screens: {
+        sm: '300px',
+        mx: '350px',
+        xm: '410px',
+        md: '768px',
+        lg: '876px',
+        xl: '1440px',
+      },
     },
   },
   plugins: [],

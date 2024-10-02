@@ -12,8 +12,8 @@ const Hero = () => {
     <section className="pt-[50px]">
       <div className="container max-w-6xl mx-auto w-full">
         <div className="flex flex-col gap-5 text-center items-center">
-          <div className="absolute flex top-20 right-0">
-            <Image src={BackgroundImageHero2} alt="" />
+          <div className="absolute flex xl:top-20 md:top-16 right-0">
+            <Image src={BackgroundImageHero2} alt="" className="md:w-[290px] xl:w-[350px]" />
           </div>
 
           <div className="flex flex-col">
@@ -38,8 +38,8 @@ const Hero = () => {
             <CopyTextField />
           </div>
 
-          <div className="absolute top-[26rem] left-0 bottom-0">
-            <Image src={BackgroundImageHero1} alt="" />
+          <div className="absolute xl:top-[26rem] md:top-[29rem] left-0 bottom-0">
+            <Image src={BackgroundImageHero1} alt="" className="md:w-[280px] xl:w-[350px]"/>
           </div>
         </div>
       </div>

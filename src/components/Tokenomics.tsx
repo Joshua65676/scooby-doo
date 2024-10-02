@@ -13,13 +13,13 @@ const Tokenomics: React.FC = () => {
 
           <div className="">
             <div className="flex flex-row justify-between gap-[00] relative top-[80px]">
-              <div className="flex flex-row pl-32">
+              <div className="flex flex-row xl:pl-32 md:pl-28">
                 <Button className="bg-primary rounded-3xl w-[180px] h-[80px]">
                   <span className="text-tertiary font-bold font-cinema text-[17px] uppercase">
                     $scooby
                   </span>
                 </Button>
-                <Image src={Line1} alt="" />
+                <Image src={Line1} alt="" className="md:hidden xl:flex"/>
               </div>
 
               <div className="flex flex-row-reverse pl-56 top-10 relative">
@@ -28,30 +28,30 @@ const Tokenomics: React.FC = () => {
                     LP token burned
                   </span>
                 </Button>
-                <Image src={Line3} alt="" />
+                <Image src={Line3} alt="" className="md:hidden xl:flex" />
               </div>
             </div>
 
-            <div className="pl-[20rem] flex items-center">
-              <Image src={TokenomicsImg} alt="" />
+            <div className="xl:pl-[22rem] md:pl-[16rem] md:pt-16 xl:pt-3 flex  items-center">
+              <Image src={TokenomicsImg} alt="" className="md:w-[300px] xl:w-[400px]" />
             </div>
 
-            <div className="flex flex-row justify-between gap-[200p] relative -top-[80px]">
-              <div className="flex flex-row -ml-10">
+            <div className="flex flex-row justify-between relative xl:-top-[80px] md:-top-[40px]">
+              <div className="flex flex-row xl:-ml-10">
                 <Button className="bg-primary rounded-3xl w-[300px] h-[114px]">
                   <span className="text-tertiary font-bold font-cinema text-[17px] uppercase w-[300px] text-left pl-6 leading-[26.5px] -tracking-[2.5%]">
                     500,000,ooo,ooo <br /> token supply
                   </span>
                 </Button>
-                <Image src={Line2} alt="" />
+                <Image src={Line2} alt="" className="md:hidden xl:flex" />
               </div>
-              <div className="flex flex-row-reverse relative -top-12 pr-10">
+              <div className="flex flex-row-reverse relative xl:-top-10 xl:pr-10 md:pr-28">
                 <Button className="bg-primary rounded-3xl w-[170px] h-[81px]">
                   <span className="text-tertiary font-bold font-cinema text-[17px] uppercase">
                     no Taxes
                   </span>
                 </Button>
-                <Image src={Line4} alt="" />
+                <Image src={Line4} alt="" className="md:hidden xl:flex" />
               </div>
             </div>
           </div>
