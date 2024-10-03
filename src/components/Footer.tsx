@@ -5,10 +5,10 @@ import Image from "next/image";
 const Footer: React.FC = () => {
   return (
     <section className="py-[85px] bg-primary">
-      <main className="container max-w-6xl mx-auto w-full xl:h-[350px] md:h-[350px]">
+      <main className="container max-w-6xl mx-auto w-full xl:h-[350px] md:h-[350px] mx:h-[150px]">
         <div className="flex flex-col gap-5 text-center items-center">
           <div className="flex absolute left-0 mx:pt-8 xl:pt-0 md:pt-0">
-            <Image src={BgImage1} alt="" className="md:w-[380px] xl:w-[400px] mx:w-[250px] " />
+            <Image src={BgImage1} alt="" className="md:w-[380px] xl:w-[400px] mx:w-[170px] " />
           </div>
 
           <div className="flex flex-col xl:gap-[13rem] md:gap-[13rem] mx:gap-[4rem]">
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="absolute flex right-0 mx:pt-8 xl:pt-0 md:pt-0">
-            <Image src={BgImage2} alt="" className="md:w-[380px] xl:w-[400px] mx:w-[250px]" />
+            <Image src={BgImage2} alt="" className="md:w-[380px] xl:w-[400px] mx:w-[170px] " />
           </div>
         </div>
       </main>

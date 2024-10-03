@@ -13,7 +13,7 @@ const Tokenomics: React.FC = () => {
 
           <div className="">
             <div className="flex flex-row justify-between gap-[00] relative top-[80px]">
-              <div className="flex flex-row xl:pl-16 md:pl-28 mx:pr-10">
+              <div className="flex flex-row xl:pl-14 md:pl-28 mx:pr-8">
                 <Button className="bg-primary rounded-3xl mx:w-[130px] md:w-[180px] xl:w-[280px] h-[80px]">
                   <span className="text-tertiary font-bold font-cinema text-[17px] uppercase">
                     $scooby
@@ -22,7 +22,7 @@ const Tokenomics: React.FC = () => {
                 <Image src={Line1} alt="" className="md:hidden xl:flex mx:hidden"/>
               </div>
 
-              <div className="flex flex-row-reverse xl:pl-28 md:pl-36 mx:pl-3 top-10 relative">
+              <div className="flex flex-row-reverse xl:pl-52 md:pl-36 mx:pl-3 top-10 relative">
                 <Button className="bg-primary rounded-3xl xl:w-[300px] xl:h-[81px] md:w-[300px] md:h-[81px] mx:w-[200px] mx:h-[100px]">
                   <span className="text-tertiary font-bold font-cinema text-[17px] mx:text-[14px] uppercase">
                     LP token burned
