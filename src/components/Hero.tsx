@@ -34,7 +34,7 @@ const Hero = () => {
             <Image src={ScoobyHeroImage} alt="" className="w-[365px]" />
           </div>
 
-          <div className=" relative xl:-mt-36 md:-mt-36 mx:mt-0 xm:-mt-10">
+          <div className=" relative xl:-mt-36 md:-mt-36 mx:mt-10 xm:-mt-10">
             <CopyTextField />
           </div>
 

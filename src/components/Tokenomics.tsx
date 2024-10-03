@@ -13,7 +13,7 @@ const Tokenomics: React.FC = () => {
 
           <div className="">
             <div className="flex flex-row justify-between gap-[00] relative top-[80px]">
-              <div className="flex flex-row xl:pl-16 md:pl-28 mx:pr-14">
+              <div className="flex flex-row xl:pl-16 md:pl-28 mx:pr-10">
                 <Button className="bg-primary rounded-3xl mx:w-[130px] md:w-[180px] xl:w-[280px] h-[80px]">
                   <span className="text-tertiary font-bold font-cinema text-[17px] uppercase">
                     $scooby
