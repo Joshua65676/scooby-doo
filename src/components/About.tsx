@@ -36,7 +36,7 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            <div className="relative xl:-top-10 md:top-14 mx:top-20 mx:pl-5 xl:pl-0 md:pl-0">
+            <div className="relative xl:-top-10 md:top-14 mx:top-20 flex items-center justify-center">
               <Image src={AboutImage} alt=""  className="w-[300px] h-[300px]" />
             </div>
           </div>

@@ -6,6 +6,7 @@ import { navLinks, socialLinks } from "@/constants";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "./ui/Button";
+import SideBar from "./SideBar";
 // import { usePathname } from 'next/navigation'
 
 const NavBar: React.FC = () => {
@@ -46,6 +47,10 @@ const NavBar: React.FC = () => {
                 </Link>
               </ul>
             ))}
+          </div>
+
+          <div className="xl:hidden md:hidden mx:flex xm:flex">
+            <SideBar />
           </div>
         </div>
       </main>
