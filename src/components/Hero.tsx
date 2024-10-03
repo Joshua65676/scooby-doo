@@ -23,7 +23,7 @@ const Hero = () => {
               </h1>
             </div>
             <div className="">
-              <p className="text-primary mx:text-[17.5px] mx:text-left xl:text-[20px] md:text-[20px] font-medium font-larken leading-[26px]">
+              <p className="text-primary mx:text-[17.5px] mx:text-left xl:text-[20px] md:text-[20px] md:text-center font-medium font-larken leading-[26px]">
                 Scooby-Doo is a goofy, snack-loving dog who helps solve spooky
                 mysteries with his friends.
               </p>
@@ -34,7 +34,7 @@ const Hero = () => {
             <Image src={ScoobyHeroImage} alt="" className="w-[365px]" />
           </div>
 
-          <div className=" relative xl:-mt-36 md:-mt-36 mx:mt-10 xm:-mt-10">
+          <div className=" relative xl:-mt-36 md:-mt-28 mx:mt-10 xm:-mt-5">
             <CopyTextField />
           </div>
 

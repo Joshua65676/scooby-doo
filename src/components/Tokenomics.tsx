@@ -32,11 +32,11 @@ const Tokenomics: React.FC = () => {
               </div>
             </div>
 
-            <div className="xl:pl-[22rem] md:pl-[16rem] mx:pl-[6rem] md:pt-16 xl:pt-3 mx:pt-36 flex  items-center">
+            <div className="xl:pl-[22rem] md:pl-[16rem] mx:pl-[6rem] md:pt-32 xl:pt-3 mx:pt-36 flex  items-center">
               <Image src={TokenomicsImg} alt="" className="md:w-[300px] xl:w-[400px] mx:w-[200px]" />
             </div>
 
-            <div className="flex flex-row justify-between relative xl:-top-[80px] md:-top-[40px] mx:top-[28px]">
+            <div className="flex flex-row justify-between relative xl:-top-[80px] md:-top-[4px] mx:top-[28px]">
               <div className="flex flex-row xl:-ml-10 mx:ml-">
                 <Button className="bg-primary rounded-3xl xl:w-[300px] xl:h-[114px] md:w-[300px] md:h-[114px] mx:w-[200px] mx:h-[114px]">
                   <span className="text-tertiary font-bold font-cinema xl:text-[17px] md:text-[17px] mx:text-[15px] uppercase w-[300px] text-left pl-6 leading-[26.5px] -tracking-[2.5%]">
@@ -57,7 +57,7 @@ const Tokenomics: React.FC = () => {
             </div>
           </div>
 
-          <div className="xl:pt-0 md:pt-0 mx:pt-14">
+          <div className="xl:pt-0 md:pt-10 mx:pt-14">
             <Button className="bg-tokeno w-[217px] h-[65px] rounded-3xl">
               <span className="text-primary text-[20px] font-bold font-cinema uppercase">
                 Buy $SCOOBY

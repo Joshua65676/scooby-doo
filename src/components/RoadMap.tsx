@@ -11,7 +11,7 @@ const RoadMap: React.FC = () => {
             RoadMap
           </h3>
 
-          <div className="flex items-center justify-center gap-[80px] md:flex-wrap xl:flex-nowrap xl:flex-row mx:flex-col relative -top-20">
+          <div className="flex items-center justify-center gap-[80px] lg:flex-wrap xl:flex-nowrap xl:flex-row mx:flex-wrap md:flex-wrap relative -top-20">
            {roadMap.map(({id, phase, span1, span2, bgImg}) => (
              <div key={id} >
                <div className="bg-secondary w-[350px] h-[235px]  border-8 border-primary rounded-3xl ml-5 relative top-52">
