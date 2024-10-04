@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="flex flex-col xl:gap-[13rem] md:gap-[13rem] mx:gap-[4rem]">
-            <div className="flex flex-col gap-2">
+            <div data-aos="fade-down" className="flex flex-col gap-2">
               <h2 className="text-tertiary font-extrabold font-cinema uppercase xl:text-[72px] md:text-[55px] mx:text-[40px]">
                 Scooby-doo
               </h2>

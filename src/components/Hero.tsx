@@ -11,12 +11,12 @@ const Hero = () => {
   return (
     <section className="pt-[50px]">
       <div className="container max-w-6xl mx-auto w-full">
-        <div className="flex flex-col xl:gap-5 md:gap-5 xm:gap-10 text-center items-center">
+        <div  className="flex flex-col xl:gap-5 md:gap-5 xm:gap-10 text-center items-center">
           <div className="absolute flex xl:top-20 md:top-16 mx:top-20 right-0">
             <Image src={BackgroundImageHero2} alt="" className="md:w-[290px] xl:w-[350px] mx:w-[200px]" />
           </div>
 
-          <div className="flex flex-col">
+          <div data-aos="fade-down" className="flex flex-col">
             <div className="">
               <h1 className="text-primary font-extrabold font-cinema uppercase xl:text-[80px] md:text-[80px] mx:text-[64px]">
                 Scooby-doo
@@ -30,11 +30,11 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="">
+          <div data-aos="fade-up" className="">
             <Image src={ScoobyHeroImage} alt="" className="w-[365px]" />
           </div>
 
-          <div className=" relative xl:-mt-36 md:-mt-28 mx:mt-10 xm:-mt-5">
+          <div data-aos="fade-up" className=" relative xl:-mt-36 md:-mt-28 mx:mt-10 xm:-mt-5">
             <CopyTextField />
           </div>
 

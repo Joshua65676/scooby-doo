@@ -20,7 +20,7 @@ const NavBar: React.FC = () => {
       <main className="container max-w-7xl mx-auto w-full">
         <div className="flex w-full justify-between items-center py-4">
 
-          <div className="xl:flex md:flex mx:hidden xm:hidden items-center gap-[36px]">
+          <div  data-aos="fade-right" className="xl:flex md:flex mx:hidden xm:hidden items-center gap-[36px]">
             {navLinks.map(({ id, title, link }) => (
               <ul key={id}>
                 <Link href={link} onClick={() => setActive(title)}>
@@ -33,11 +33,11 @@ const NavBar: React.FC = () => {
             ))}
           </div>
 
-          <Link href="/">
+          <Link  data-aos="fade-down" href="/">
             <Image src={Logo} alt="" className="w-[30px] h-[60px]" />
           </Link>
 
-          <div className="xl:flex md:flex mx:hidden xm:hidden items-center gap-[24px] py-5">
+          <div  data-aos="fade-left" className="xl:flex md:flex mx:hidden xm:hidden items-center gap-[24px] py-5">
             {socialLinks.map(({ id, title, link }) => (
               <ul key={id} className="">
                 <Link href={link}>
@@ -49,7 +49,7 @@ const NavBar: React.FC = () => {
             ))}
           </div>
 
-          <div className="xl:hidden md:hidden mx:flex xm:flex">
+          <div data-aos="fade-left" className="xl:hidden md:hidden mx:flex xm:flex">
             <SideBar />
           </div>
         </div>
